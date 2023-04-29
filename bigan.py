@@ -307,9 +307,9 @@ def main():
             print("-------------------------------")
             print("======== SAVING MODELS ========")
             print("-------------------------------")
-            if not os.path.exists('MalDroid_Models/bigan/'):
-                os.makedirs('MalDroid_Models/bigan/')
-            torch.save(wali.state_dict(), 'MalDroid_Models/bigan/bot%d.ckpt' % (epoch+1))
+            if not os.path.exists('Models/bigan/'):
+                os.makedirs('Models/bigan/')
+            torch.save(wali.state_dict(), 'Models/bigan/bot%d.ckpt' % (epoch+1))
         
         EG_scheduler.step()
         C_scheduler.step()        
