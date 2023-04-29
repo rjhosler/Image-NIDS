@@ -10,7 +10,7 @@ This code is intended to run in an anaconda virtual environment. To install all 
 This file contains our implementation of converting feature vectors from the [Bot-IoT](https://research.unsw.edu.au/projects/bot-iot-dataset) dataset into images. 
 A directory of images can be created by running this command:
 
-`python create_images.py`
+`python create_bot.py`
 
 ## wae.py
 This file will train a Wasserstein Autoencoder model and save checkpoints to the Models directory by running this command:
